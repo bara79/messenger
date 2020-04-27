@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="400.0" style="-fx-background-color: #87f5a4;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1">
+    <Button layoutX="270.0" layoutY="429.0" mnemonicParsing="false" prefHeight="58.0" prefWidth="116.0" text="Отправить" />
+    <TextArea layoutX="14.0" layoutY="43.0" prefHeight="381.0" prefWidth="254.0" />
+    <!-- поле ввода -->
+    <TextField fx:id="InputField" layoutX="14.0" layoutY="430.0" prefHeight="58.0" prefWidth="254.0" promptText="Введите текст" />
+    <MenuBar layoutX="14.0" layoutY="14.0" prefHeight="25.0" prefWidth="254.0">
+      <menus>
+          <Menu mnemonicParsing="false" text="File">
+              <items>
+                  <MenuItem mnemonicParsing="false" text="Close" />
+              </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="Help">
+              <items>
+                  <MenuItem mnemonicParsing="false" text="About" />
+              </items>
+          </Menu>
+      </menus>
+    </MenuBar>
+    <TextArea layoutX="270.0" layoutY="43.0" prefHeight="381.0" prefWidth="116.0" />
+</AnchorPane>
